@@ -1,0 +1,127 @@
+
+h1{
+    display:flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-image: url(banner_1.jpeg);
+    
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(173, 10, 10);
+    border-bottom: 3px solid rgb(173, 10, 10);
+}
+
+.paragraph{
+    border-left:2px solid gray;
+    border-right:2px solid gray;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.text{
+    display:flex;
+    align-content:space-between;
+}
+.firstImage{
+    position:absolute;
+    left:80px; 
+}
+/* here we have the code for the second page */
+.container{
+  position: relative;
+  top:50px; left: 450px;
+}
+
+fieldset{
+    border-color: rgb(30, 28, 28);
+    position: absolute;
+    height:max-content;
+    width:max-content;
+}
+
+legend{
+    border:1px groove  rgb(30, 28, 28);
+}
+
+.personalInfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2px;
+}
+
+.radio{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.comments{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+
+}
+
+button{
+    position: relative;
+   top: 5px; left:55px;
+   border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size:small;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: rgb(0, 0, 0);
+}
+
+button:hover{
+    background-color: rgb(173, 10, 10);
+}
+button:active{
+    background-color: rgb(255, 0, 0);
+}
+/*here we have the code for page three */
+.listContainer{
+    display:flex;
+    justify-content: center;
+    align-content:space-between ; /* honestly I don't know what else to put here */
+    height:30em;
+    margin-top: 2em;
+}
+/*here we have the code for page four*/
+.imageContainer1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 100%;
+}
+
+.redDragon{
+    display: flex;
+    justify-content: center;
+}
+
+.adventurers{
+    display: flex;
+    justify-content: center;  
+}
+
+.blueDragon{
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainer2{
+    display: flex;
+    justify-content: center;
+}

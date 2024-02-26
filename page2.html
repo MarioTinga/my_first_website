@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <meta charset="utf-8">
+        <title>You should play D&D!-Are you interested?</title>
+    </head>
+
+    <body>
+        <h1>Are you interested? Let me know!</h1>
+
+        <nav>
+            <a href="page1.html">Home</a> 
+            <a href="page2.html">Form</a> 
+            <a href="page3.html">Resources</a> 
+            <a href="page4.html">Thanks</a>
+        </nav>
+
+       <div class="container">
+        <form action="#">
+            <fieldset>
+             <legend>Your info</legend>
+
+            <div class="personalInfo">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="firstName"/>
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="lastName"/>
+            </div>
+
+             <div class="radio">
+                <input type="radio" id="yes" name="yes"/>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="no"/>
+                <label for="no">No</label>
+                <input type="radio" id="maybe" name="maybe"/>
+                <label for="maybe">Maybe</label>
+             </div>
+
+             <div class="comments">
+             <label for="comments">Tell us why:</label>
+             <textarea id="comments" name="comments"rows="5" cols="20" placeholder="I think that..." maxlength="200"></textarea>
+            
+            <div>
+            <button class="style_button" type="button">Send</button>
+            </div>
+            </fieldset>
+        </form>
+       </div>
+    </body>
+</html>
